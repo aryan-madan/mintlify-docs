@@ -1,80 +1,89 @@
 ---
 title: "Quickstart"
-description: "Start building awesome documentation in minutes"
+description: "Start collaborating in minutes"
 ---
 
-## Get started in three steps
+## Get started
 
-Get your documentation site running locally and make your first customization.
+Understanding a few core concepts will help you get the most out of Cortex. Everything starts with a **Project** — your central hub for collaboration.
 
-### Step 1: Set up your local environment
+### Step 1: Create a Project
 
 <AccordionGroup>
-  <Accordion icon="copy" title="Clone your docs locally">
-    During the onboarding process, you created a GitHub repository with your docs content if you didn't already have one. You can find a link to this repository in your [dashboard](https://dashboard.mintlify.com).
+  <Accordion icon="plus" title="Create a new project">
+    From your Cortex dashboard, click the **"New Project"** button.  
+    Enter a name for your project and hit **Create**.  
+  
+    Your workspace will instantly be set up with real-time tools like Tasks, Notes, Whiteboard, Chat, and more.
     
-    To clone the repository locally so that you can make and preview changes to your docs, follow the [Cloning a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) guide in the GitHub docs.
+    <Tip>You can create as many projects as you like — one for each class, study group, or goal.</Tip>
   </Accordion>
-  <Accordion icon="rectangle-terminal" title="Start the preview server">
-    1. Install the Mintlify CLI: `npm i -g mint`
-    2. Navigate to your docs directory and run: `mint dev`
-    3. Open `http://localhost:3000` to see your docs live!
-    
-    <Tip>Your preview updates automatically as you edit files.</Tip>
+  <Accordion icon="layout-grid" title="Explore the project dashboard">
+    Once inside a project, you'll see a sidebar with tabs:  
+    - **Tasks**  
+    - **Notes**  
+    - **Whiteboard**  
+    - **Chat**  
+    - **Timer**  
+    - **Calendar**
+
+    Each feature is built for real-time collaboration and productivity.
   </Accordion>
 </AccordionGroup>
 
-### Step 2: Deploy your changes
+### Step 2: Invite your team
 
 <AccordionGroup>
-  <Accordion icon="github" title="Install our GitHub app">
-    Install the Mintlify GitHub app from your [dashboard](https://dashboard.mintlify.com/settings/organization/github-app).
+  <Accordion icon="users" title="Add collaborators">
+    Click the **three dots** next to your project name and select **"Invite Members"**.  
+    Enter your teammates' email addresses and send invites.
+
+    They'll get instant access and can start collaborating with you immediately.
     
-    Our GitHub app automatically deploys your changes to your docs site, so you don't need to manage deployments yourself.
-</Accordion>
-<Accordion icon="palette" title="Update your site name and colors">
-    For a first change, let's update the name and colors of your docs site.
+    <Tip>You can manage roles and permissions in project settings.</Tip>
+  </Accordion>
+  <Accordion icon="link" title="Share access securely">
+    Cortex generates secure invite links so your collaborators can join without creating an account first.  
 
-    1. Open `docs.json` in your editor.
-    2. Change the `"name"` field to your project name.
-    3. Update the `"colors"` to match your brand.
-    4. Save and see your changes instantly at `http://localhost:3000`.
-
-    <Tip>Try changing the primary color to see an immediate difference!</Tip>
+    You can revoke or expire invite links anytime from the project’s member panel.
   </Accordion>
 </AccordionGroup>
 
-### Step 3: Go live
+### Step 3: Collaborate in real time
 
-<Accordion icon="rocket" title="Publish your docs">
-  1. Commit and push your changes.
-  2. Your docs will update and be live in moments!
+<Accordion icon="rocket" title="Start working together">
+  You're all set!  
+  Open any feature tab — like Notes or Whiteboard — and collaborate with your team live. Changes sync instantly across all devices.
+
+  <Tip>Use the built-in Chat and Timer to stay focused and in sync during sessions.</Tip>
 </Accordion>
+
+---
 
 ## Next steps
 
-Now that you have your docs running, explore these key features:
+Now that you've created your first project, dive deeper into Cortex features:
 
 <CardGroup cols={2}>
 
-<Card title="Write Content" icon="pen-to-square" href="/essentials/markdown">
-  Learn MDX syntax and start writing your documentation.
+<Card title="Tasks and Notes" icon="check" href="/features/tasks">
+  Organize your day and take collaborative notes in real time.
 </Card>
 
-<Card title="Customize style" icon="palette" href="/essentials/settings">
-  Make your docs match your brand perfectly.
+<Card title="Whiteboard & Chat" icon="pen-fancy" href="/features/whiteboard">
+  Brainstorm together with sketches and live messaging.
 </Card>
 
-<Card title="Add code examples" icon="square-code" href="/essentials/code">
-  Include syntax-highlighted code blocks.
+<Card title="Use the Timer" icon="clock" href="/features/timer">
+  Stay focused using Pomodoro sessions with your team.
 </Card>
 
-<Card title="API documentation" icon="code" href="/api-reference/introduction">
-  Auto-generate API docs from OpenAPI specs.
+<Card title="Manage Calendar" icon="calendar-days" href="/features/calendar">
+  Sync deadlines and events across your projects.
 </Card>
 
 </CardGroup>
 
 <Note>
-  **Need help?** See our [full documentation](https://mintlify.com/docs) or join our [community](https://mintlify.com/community).
+  **Need help?** Check the [full Cortex docs](https://cortexdocs.com) or reach out to our [support team](mailto:joincortex@gmail.com).
 </Note>
