@@ -7,7 +7,7 @@
     "light": "#818CF8",
     "dark": "#6366F1"
   },
-  "favicon": "https://i.ibb.co/ymJq53P2/cortex-logo.png",
+  "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
@@ -17,35 +17,32 @@
             "group": "Getting started",
             "pages": [
               "index",
-              "quickstart",
-              "development"
+              "quickstart"
             ]
           },
           {
-            "group": "Customization",
+            "group": "The Workspace",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
+              "workspace/tasks",
+              "workspace/notes",
+              "workspace/chat",
+              "workspace/whiteboard",
+              "workspace/calendar",
+              "workspace/timer"
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "Management",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "management/perms",
+              "management/project"
+            ]
+          },
+          {
+            "group": "Cortex AI",
+            "pages": [
+              "ai/palette",
+              "ai/assist"
             ]
           }
         ]
@@ -54,19 +51,9 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
+          "anchor": "Changelog",
+          "href": "https://joincortex.xyz/changelog",
           "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
         }
       ]
     }
