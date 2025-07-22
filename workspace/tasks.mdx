@@ -5,79 +5,62 @@ description: "Organize your work with Cortex's real-time Kanban board"
 
 # Tasks
 
-Bring order to your academic chaos with Cortex's intuitive **Kanban board**.  
-The Tasks view gives you a bird's-eye look at your workflow — perfect for tracking assignments, managing research phases, and prioritizing study time.
+Bring order to your academic chaos with Cortex’s intuitive **Kanban board**.\
+Track assignments, manage phases of research, and prioritize study time — all in one collaborative workspace.
 
 ---
 
-## Anatomy of the Task Board
+<AccordionGroup>
+  <Accordion title="Board Structure" icon="grid">
+    Cortex Tasks are organized using a flexible Kanban layout:
 
-### Columns  
-Each column represents a stage of your process — like _To Do_, _In Progress_, or _Done_.
+    - Each **column** represents a stage in your workflow — like _To Do_, _In Progress_, or _Done_
+    - **Cards** represent individual tasks, which can be moved between columns to reflect progress
+    - Columns can be added, renamed, or deleted to match your preferred workflow
 
-- Add, rename, or delete columns to fit your workflow.
-- Tailor it for courses, projects, or personal goals.
+    <Tip>
+      Use custom columns for different courses, group projects, or personal goals.
+    </Tip>
+  </Accordion>
+  <Accordion title="Creating Tasks" icon="plus">
+    You can add tasks directly from the board by clicking **"Add a card"** at the bottom of any column.
 
-### Cards  
-Each task lives inside a card.
+    Prefer keyboard?\
+    Use the **Command Palette** (`⌘K` / `Ctrl+K`) to create tasks instantly from anywhere in the app.
+  </Accordion>
+  <Accordion title="Editing Task Details" icon="file">
+    Click on any task card to open its full detail view. From there you can:
 
-- Drag and drop between columns to update status.
-- Changes sync instantly across your team.
+    - Edit the title and description
+    - Set a due date and add tags
+    - Assign the task to team members
 
----
-
-## Working with Tasks
-
-### Creating Tasks  
-Click **"Add a card"** at the bottom of any column, or use the **Command Palette** (`⌘K` / `Ctrl+K`) to create tasks instantly from anywhere.
-
-### Editing Details  
-Click any task card to open its detail view:
-
-- Set title and description  
-- Assign a due date and tags  
-- Delegate to team members
-
-All updates are live and collaborative.
+    All edits are saved in real time — no need to refresh or sync manually.
+  </Accordion>
+</AccordionGroup>
 
 ---
 
 ## Explore Other Workspace Tools
 
 <Columns cols={2}>
-  <Card
-    title="Notes"
-    icon="book"
-    href="/workspace/notes"
-  >
+  <Card title="Notes" icon="book" href="/workspace/notes">
     Take structured, shareable notes — solo or with peers.
   </Card>
-  <Card
-    title="Whiteboard"
-    icon="pen-nib"
-    href="/workspace/whiteboard"
-  >
+
+  <Card title="Whiteboard" icon="pen-nib" href="/workspace/whiteboard">
     Sketch out ideas together on an infinite canvas.
   </Card>
-  <Card
-    title="Chat"
-    icon="message"
-    href="/workspace/chat"
-  >
+
+  <Card title="Chat" icon="message" href="/workspace/chat">
     Communicate with collaborators in real time.
   </Card>
-  <Card
-    title="Timer"
-    icon="clock"
-    href="/workspace/timer"
-  >
+
+  <Card title="Timer" icon="clock" href="/workspace/timer">
     Stay focused using built-in Pomodoro timers.
   </Card>
-  <Card
-    title="Calendar"
-    icon="calendar-days"
-    href="/workspace/calendar"
-  >
+
+  <Card title="Calendar" icon="calendar-days" href="/workspace/calendar">
     Sync your schedule and plan ahead with integrated events.
   </Card>
 </Columns>

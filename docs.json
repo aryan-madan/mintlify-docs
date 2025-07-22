@@ -32,13 +32,6 @@
             ]
           },
           {
-            "group": "Management",
-            "pages": [
-              "management/perms",
-              "management/project"
-            ]
-          },
-          {
             "group": "Cortex AI",
             "pages": [
               "ai/palette",

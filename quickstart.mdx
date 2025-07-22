@@ -1,100 +1,126 @@
 ---
-title: "Tasks"
-description: "Organize your work with Cortex's real-time Kanban board or list-view"
+title: "Quickstart"
+description: "Start collaborating in minutes"
 ---
 
-# Tasks
+## Get started
 
-Bring order to your academic chaos with Cortex's intuitive **Kanban board**.  
-The Tasks view gives you a bird's-eye look at your workflow — perfect for tracking assignments, managing research phases, and prioritizing study time.
+Understanding a few core concepts will help you get the most out of Cortex. Everything starts with a **Project** — your central hub for collaboration.
 
----
+### Step 1: Create a Project
 
-## Anatomy of the Task Board
+<AccordionGroup>
+  <Accordion title="Create a new project" icon="plus">
+    From your Cortex dashboard, click the **"New Project"** button.\
+    Enter a name for your project and hit **Create**.
 
-### Columns  
-Each column represents a stage of your process — like _To Do_, _In Progress_, or _Done_.
+    Your workspace will instantly be set up with real-time tools like Tasks, Notes, Whiteboard, Chat, and more.
 
-- Add, rename, or delete columns to fit your workflow.
-- Tailor it for courses, projects, or personal goals.
+    <Tip>
+      You can create as many projects as you like — one for each class, study group, or goal.
+    </Tip>
+  </Accordion>
+  <Accordion title="Explore the project dashboard" icon="grid">
+    Once inside a project, you'll see a sidebar with tabs:
 
-### Cards  
-Each task lives inside a card.
+    - **Tasks**
+    - **Notes**
+    - **Whiteboard**
+    - **Chat**
+    - **Timer**
+    - **Calendar**
 
-- Drag and drop between columns to update status.
-- Changes sync instantly across your team.
+    Each feature is built for real-time collaboration and productivity.
+  </Accordion>
+</AccordionGroup>
 
----
+### Step 2: Invite your team
 
-## Working with Tasks
+<AccordionGroup>
+  <Accordion title="Add collaborators" icon="users">
+    Click the **three dots** next to your project name and select **"Members"**.\
+    This will open a members panel with a **"Invite Members" **button.\
+    Enter your teammates' email addresses and send invites.
 
-<Accordion type="single" collapsible>
-  <AccordionItem value="create">
-    <AccordionTrigger>Creating a Task</AccordionTrigger>
-    <AccordionContent>
-      Click **"Add a card"** at the bottom of any column, or press `⌘K` / `Ctrl+K` to open the **Command Palette** and create tasks instantly.
-    </AccordionContent>
-  </AccordionItem>
+    They'll get instant access and can start collaborating with you immediately after accepting your invite.
 
-  <AccordionItem value="edit">
-    <AccordionTrigger>Editing Task Details</AccordionTrigger>
-    <AccordionContent>
-      Click any card to open its detail view. You can:
-      - Change the title and description  
-      - Assign a due date  
-      - Add tags  
-      - Delegate to teammates  
-      All updates sync live and in real time.
-    </AccordionContent>
-  </AccordionItem>
+    <Tip>
+      You can manage roles and permissions in project settings.
+    </Tip>
+  </Accordion>
+<Accordion title="Share access securely" icon="link">
+  <div className="space-y-4">
+    <div>
+      <p className="font-semibold">Owner</p>
+      <p className="text-sm text-muted-foreground">
+        Has full control over the project, including the ability to delete it. Can manage all member roles.
+      </p>
+    </div>
+    <div>
+      <p className="font-semibold">Admin</p>
+      <p className="text-sm text-muted-foreground">
+        Can manage project settings and members (except for promoting others to Owner or removing an Owner).
+      </p>
+    </div>
+    <div>
+      <p className="font-semibold">Editor</p>
+      <p className="text-sm text-muted-foreground">
+        Can create and edit all project content (tasks, notes, chat messages, etc.). This is the standard role for team members.
+      </p>
+    </div>
+    <div>
+      <p className="font-semibold">Viewer</p>
+      <p className="text-sm text-muted-foreground">
+        Can view all project content but cannot make any changes. Perfect for stakeholders or advisors.
+      </p>
+    </div>
+  </div>
+</Accordion>
+</AccordionGroup>
 
-  <AccordionItem value="organize">
-    <AccordionTrigger>Organizing Tasks</AccordionTrigger>
-    <AccordionContent>
-      Drag and drop cards between columns to reflect progress.  
-      You can also reorder cards within the same column for custom prioritization.
-    </AccordionContent>
-  </AccordionItem>
+### Step 3: Collaborate in real time
+
+<Accordion title="Start working together" icon="rocket">
+  You're all set\!\
+  Open any feature tab — like Notes or Whiteboard — and collaborate with your team live. Changes sync instantly across all devices.
+
+  <Tip>
+    Use the built-in Chat and Timer to stay focused and in sync during sessions.
+  </Tip>
 </Accordion>
 
 ---
 
-## Explore Other Workspace Tools
+## Next steps
+
+Now that you've created your first project, dive deeper into Cortex features:
 
 <Columns cols={2}>
-  <Card
-    title="Notes"
-    icon="book"
-    href="/workspace/notes"
-  >
+  <Card title="Tasks" icon="check" href="/features/tasks">
+    Plan your day with intelligent, collaborative to-do lists.
+  </Card>
+
+  <Card title="Notes" icon="book" href="/features/notes">
     Take structured, shareable notes — solo or with peers.
   </Card>
-  <Card
-    title="Whiteboard"
-    icon="pen-nib"
-    href="/workspace/whiteboard"
-  >
+
+  <Card title="Whiteboard" icon="pen-nib" href="/features/whiteboard">
     Sketch out ideas together on an infinite canvas.
   </Card>
-  <Card
-    title="Chat"
-    icon="message"
-    href="/workspace/chat"
-  >
+
+  <Card title="Chat" icon="message" href="/features/chat">
     Communicate with collaborators in real time.
   </Card>
-  <Card
-    title="Timer"
-    icon="clock"
-    href="/workspace/timer"
-  >
+
+  <Card title="Timer" icon="clock" href="/features/timer">
     Stay focused using built-in Pomodoro timers.
   </Card>
-  <Card
-    title="Calendar"
-    icon="calendar-days"
-    href="/workspace/calendar"
-  >
+
+  <Card title="Calendar" icon="calendar-days" href="/features/calendar">
     Sync your schedule and plan ahead with integrated events.
   </Card>
 </Columns>
+
+<Note>
+  **Need help?** Check the [full Cortex docs](https://cortexdocs.com) or reach out to our [support team](mailto:joincortex@gmail.com).
+</Note>
